@@ -3,7 +3,7 @@ info:
   title: first-API
   version: '1.0'
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://localhost:3001'
 paths:
   '/users/{userId}':
     parameters:
@@ -14,7 +14,7 @@ paths:
         required: true
         description: Id of an existing user.
     get:
-      summary: Get User Info by User ID
+      summary: Get User Info by User IDs
       tags: []
       responses:
         '200':
